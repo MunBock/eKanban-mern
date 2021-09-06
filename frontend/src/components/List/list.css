@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+
+.list-container {
+  min-width: 300px;
+  margin: 0 8px 0 0;
+  height: 100%;
+  max-height: 83.3vh;
+  padding: 10px;
+  word-wrap: break-word;
+  background: #dfe3e6;
+  border-radius: 3px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.list {
+  padding: 1px;
+}
+
+.card-add-button-open {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.75);
+  background: #e0e0e0;
+  border: none;
+  border-radius: 2px;
+  padding: 12px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: "Roboto";
+}
+
+.card-add-button-open:hover {
+  background: #d5d5d5;
+  box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+}

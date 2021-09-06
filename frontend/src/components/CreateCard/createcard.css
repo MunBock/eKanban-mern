@@ -1,0 +1,50 @@
+.create-card-input {
+  background: white;
+  padding: 20px;
+}
+
+.create-card-input-label {
+  font-size: 14px;
+  color: grey;
+  width: 100%;
+}
+
+.create-card-input-textarea {
+  padding: 2px;
+  width: 100%;
+  min-height: 20px;
+  margin-top: 10px;
+  resize: none;
+  border: none;
+  font-size: 18px;
+  background: #f7f7f7;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card-add-button {
+  margin-top: 2px;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  color: white;
+  background: #055dd1;
+  border: none;
+  border-radius: 2px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.card-add-button:hover {
+  opacity: 0.9;
+}
+
+.card-close-button {
+  margin-left: 2px;
+  border: none;
+  background: none;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.card-close-button:hover {
+  background: #d3d3d3;
+}

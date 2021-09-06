@@ -1,0 +1,14 @@
+.board-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.rename-board-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+}

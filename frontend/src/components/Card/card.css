@@ -1,0 +1,115 @@
+.card-container {
+  margin: 0 0 8px 0;
+  max-width: 100%;
+  position: relative;
+}
+
+.card {
+  width: 280px;
+  max-width: 280px;
+  border-radius: 8px;
+  background: white;
+  word-wrap: break-word;
+}
+
+.card-edit-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: black;
+  opacity: 0;
+}
+
+.card-edit-button.active {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: black;
+  opacity: 0.5;
+}
+
+.card-edit-button:hover {
+  opacity: 0.8;
+}
+
+.card-delete-button {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: black;
+  opacity: 0;
+}
+
+.card-delete-button.active {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: black;
+  opacity: 0.5;
+}
+
+.card-delete-button:hover {
+  opacity: 0.8;
+}
+
+.card-content {
+  padding: 18px;
+  min-height: 70px;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.edit-card-input {
+  width: 280px;
+  max-width: 280px;
+  background: white;
+  padding: 20px;
+}
+
+.edit-card-input-label {
+  font-size: 14px;
+  color: grey;
+}
+
+.edit-card-input-textarea {
+  padding: 2px;
+  width: 100%;
+  min-height: 20px;
+  margin-top: 10px;
+  resize: none;
+  border: none;
+  font-size: 18px;
+  background: #f7f7f7;
+  font-family: "Times New Roman", Times, serif;
+  overflow: hidden;
+}
+
+.card-save-button {
+  margin-top: 2px;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  color: white;
+  background: #055dd1;
+  border: none;
+  border-radius: 2px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.card-save-button:hover {
+  opacity: 0.9;
+}
+
+.card-close-button {
+  margin-left: 2px;
+  border: none;
+  background: none;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.card-close-button:hover {
+  background: #d3d3d3;
+}
